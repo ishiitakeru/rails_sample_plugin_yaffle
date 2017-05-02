@@ -1,5 +1,5 @@
 require 'yaffle/core_ext'
-require 'yaffle/act_as_yaffle'
+require 'yaffle/acts_as_yaffle'
 
 module Yaffle
 end
