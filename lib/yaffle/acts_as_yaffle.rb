@@ -1,5 +1,5 @@
 module Yaffle
-  mogule ActsAsYaffle
+  module ActsAsYaffle
     extend ActiveSupport::Concern
 
     included do
