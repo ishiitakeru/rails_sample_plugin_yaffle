@@ -5,7 +5,7 @@ module Yaffle
     included do
     end
 
-    moduke ClassMethods
+    module ClassMethods
       def acts_as_yaffle(options = {})
 
         include Yaffle::ActsAsYaffle::LocalInstanceMethods
