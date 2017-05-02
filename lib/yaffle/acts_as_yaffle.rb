@@ -22,4 +22,5 @@ module Yaffle
   end
 end
 
-ActiveRecord::Base.send :include, Yaffle::ActsAsYaffle
+#ActiveRecord::Base.send :include, Yaffle::ActsAsYaffle
+ActiveRecord::Base.include(Yaffle::ActsAsYaffle)
